@@ -1,11 +1,29 @@
-# Task 6 ==============================================
+# Task 6
 
 def create_calculator(operator):
+    """
+    Створює калькулятор для виконання математичних операцій.
+
+    Аргументи:
+    operator (str): Оператор для обчислення ('+', '-', '*', '/').
+
+    Повертає:
+    function: Функцію для обчислення значень.
+    """
     value_x = "x"
     value_y = "y"
 
-
     def numeric_values(x, y):
+        """
+        Виконує обчислення між двома значеннями.
+
+        Аргументи:
+        x (int/float): Перше число.
+        y (int/float): Друге число.
+
+        Повертає:
+        str: Результат обчислення або повідомлення про помилку.
+        """
         nonlocal value_x, value_y
 
         value_x = x
@@ -18,7 +36,7 @@ def create_calculator(operator):
                 return result
             else:
                 return f"{calculator} = Помилка: Ділення на нуль"
-        elif operator in ['+', '-', '*',]:
+        elif operator in ['+', '-', '*']:
             result = f"{calculator} = {eval(calculator)}"
             return result
         else:
@@ -29,4 +47,4 @@ def create_calculator(operator):
     return numeric_values
 
 
-print(create_calculator("/")(1,0))
+print(create_calculator("/")(1, 0))

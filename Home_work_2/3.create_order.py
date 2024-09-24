@@ -1,10 +1,18 @@
-# Task 3 ==============================================
+# Task 3
 
 def create_order(value, add_discount):
+    """
+    Створює замовлення і застосовує знижки.
+
+    Аргументи:
+    value (float): Початкова вартість товару.
+    add_discount (str): Тип додаткової знижки ('vip' або інший).
+    """
     discounted_price = value - (value * discount)
     new_product_price = discounted_price
 
     def apply_additional_discount():
+        """Застосовує додаткову знижку на товар."""
         nonlocal new_product_price, discounted_price
 
         if add_discount == "vip":
@@ -17,6 +25,7 @@ def create_order(value, add_discount):
     apply_additional_discount()
 
     def correct_price():
+        """Коригує ціну, щоб уникнути зайвих десяткових знаків."""
         nonlocal new_product_price
 
         price_check = new_product_price - int(new_product_price)
