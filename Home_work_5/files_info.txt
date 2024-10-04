@@ -1,0 +1,15 @@
+Перегляд каталогу: C:\Base_data\_system_files\Practice\Python Pro\Home_work_5
+
+Каталог: image_test, 24 елем., 10.12 МБ
+Файл: 1_reverse_fileIterator.py 1.31 КБ
+Файл: 2_unique_id_iterator.py 1.20 КБ
+Файл: 3_image_metadata_iterator.py 2.62 КБ
+Файл: 4_line_filter.py 1.74 КБ
+Файл: 5_even_number_generator.py 2.71 КБ
+Файл: 6_directory_file_iterator.py 6.66 КБ
+Файл: even_numbers.txt 445 байт
+Файл: files_info.txt пустий файл
+Файл: filtered_log_file.txt 748 байт
+Файл: image_metadata.csv 679 байт
+Файл: test_file.log 925 байт
+Файл: __init__.py пустий файл

@@ -1,0 +1,11 @@
+2024-10-03 10:15:32 - INFO - Game started.
+2024-10-03 10:16:15 - INFO - Hero Ayu entered the Dark Forest.
+2024-10-03 10:17:45 - INFO - Ayu picked up a health potion.
+2024-10-03 10:18:50 - INFO - Ayu used a health potion. HP restored by 20 points.
+2024-10-03 10:19:20 - INFO - Ayu attacked the goblin. Damage: 15.
+2024-10-03 10:20:05 - INFO - Ayu successfully dodged the goblin's attack.
+2024-10-03 10:21:00 - INFO - Ayu defeated the goblin. Gained 50 XP.
+2024-10-03 10:22:15 - INFO - Ayu found a treasure chest containing 100 gold coins.
+2024-10-03 10:23:55 - INFO - Ayu exited the Dark Forest and returned to the village.
+2024-10-03 10:25:10 - INFO - Game saved successfully.
+2024-10-03 10:26:45 - INFO - Player chose to quit the game.

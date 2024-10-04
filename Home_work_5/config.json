@@ -1,0 +1,19 @@
+{
+    "app_name": "MyApplication",
+    "version": "1.0.0",
+    "settings": {
+        "theme": "dark",
+        "language": "uk",
+        "auto_save": true,
+        "backup_frequency": "daily"
+    },
+    "user": {
+        "name": "Test",
+        "email": "Test@example.com",
+        "notifications": {
+            "email_notifications": true,
+            "sms_notifications": false
+        }
+    },
+    "new_key": "new_value"
+}
