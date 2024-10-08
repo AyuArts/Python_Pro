@@ -1,0 +1,37 @@
+{
+    "file_types": {
+        ".csv": {
+            "type": "csv",
+            "mode": "r",
+            "write_mode": "w",
+            "kwargs": {
+                "encoding": "utf-8",
+                "newline": ""
+            },
+            "message": "CSV Data:",
+            "parser": "parse_csv",
+            "writer": "write_csv"
+        },
+        ".json": {
+            "type": "json",
+            "mode": "r",
+            "write_mode": "w",
+            "kwargs": {
+                "encoding": "utf-8"
+            },
+            "message": "JSON Data:",
+            "parser": "parse_json",
+            "writer": "write_json"
+        },
+        ".xml": {
+            "type": "xml",
+            "mode": "rb",
+            "write_mode": "wb",
+            "kwargs": {},
+            "message": "XML Data:",
+            "parser": "parse_xml",
+            "writer": "write_xml"
+        }
+    },
+    "available_formats": ["csv", "json", "xml"]
+}

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<products>
+    <product>
+        <name>манка</name>
+        <price>200</price>
+        <quantity>300</quantity>
+    </product>
+    <product>
+        <name>Гречка</name>
+        <price>300</price>
+        <quantity>200</quantity>
+    </product>
+    <product>
+        <name>гречка</name>
+        <price>300</price>
+        <quantity>300</quantity>
+    </product>
+</products>
