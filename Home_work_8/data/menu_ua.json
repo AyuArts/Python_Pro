@@ -1,0 +1,64 @@
+{
+  "menus": {
+    "main_menu": {
+      "title": "Меню Кінобази",
+      "options": [
+        {
+          "option_name": "Додати фільм",
+          "action": "add_movie",
+          "key": "1"
+        },
+        {
+          "option_name": "Додати актора",
+          "action": "add_actor",
+          "key": "2"
+        },
+        {
+          "option_name": "Показати всі фільми з акторами",
+          "action": "show_movies_with_actors",
+          "key": "3"
+        },
+        {
+          "option_name": "Показати унікальні жанри",
+          "action": "show_unique_genres",
+          "key": "4"
+        },
+        {
+          "option_name": "Показати кількість фільмів за жанром",
+          "action": "show_movie_count_by_genre",
+          "key": "5"
+        },
+        {
+          "option_name": "Показати середній рік народження акторів у фільмах певного жанру",
+          "action": "show_avg_birth_year_by_genre",
+          "key": "6"
+        },
+        {
+          "option_name": "Пошук фільму за назвою",
+          "action": "search_movie_by_title",
+          "key": "7"
+        },
+        {
+          "option_name": "Показать фильмы (с пагинацией)",
+          "action": "show_movies_paginated",
+          "key": "8"
+        },
+        {
+          "option_name": "Показати імена всіх акторів та назви всіх фільмів",
+          "action": "show_actors_and_movies",
+          "key": "9"
+        },
+        {
+          "option_name": "Показати фільми з їхнім віком",
+          "action": "show_movies_with_age",
+          "key": "10"
+        },
+        {
+          "option_name": "Вихід",
+          "action": "exit",
+          "key": "0"
+        }
+      ]
+    }
+  }
+}

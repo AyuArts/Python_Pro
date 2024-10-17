@@ -1,0 +1,48 @@
+{
+  "movie_input": {
+    "enter_movie_title": "Введіть назву фільму: ",
+    "enter_release_year": "Введіть рік випуску фільму: ",
+    "enter_genre": "Введіть жанр фільму: ",
+    "enter_keyword": "Введіть ключове слово для пошуку: ",
+    "enter_page_number": "Введіть номер сторінки: "
+  },
+  "actor_input": {
+    "enter_actor_name": "Введіть ім'я актора: ",
+    "enter_birth_year": "Введіть рік народження актора: ",
+    "enter_actor_ids": "Введіть ID акторів, розділені комами: "
+  },
+  "messages": {
+    "no_actors_available": "Немає акторів для вибору. Спочатку додайте акторів.",
+    "actor_added_success": "Актор з ID {0} успішно додано до фільму.",
+    "actor_already_linked": "Зв'язок між фільмом і актором з ID {0} вже існує.",
+    "actor_not_exist": "Актор з ID {0} не існує. Спробуйте ще раз.",
+    "no_movies_available": "Немає фільмів для відображення.",
+    "invalid_choice": "Неправильний вибір. Спробуйте ще раз.",
+    "no_data_available": "Немає даних для відображення.",
+    "no_more_movies": "Більше фільмів немає.",
+    "already_first_page": "Ви вже на першій сторінці.",
+    "invalid_option": "Неправильний вибір. Будь ласка, спробуйте ще раз.",
+    "movie_added_success": "Фільм успішно додано.",
+    "actor_list": "Список акторів:"
+  },
+  "movie_details": {
+    "movie_with_actors": "Фільм: {0}, Актори: {1}",
+    "genre": "Жанр: {0}",
+    "genre_count": "Жанр: {0}, Кількість фільмів: {1}",
+    "average_birth_year": "Середній рік народження акторів у жанрі {0}: {1}",
+    "avg_birth_year_by_genre": "Середній рік народження акторів у жанрі {0}: {1}",
+    "movie_found": "Фільм: {0}, Рік випуску: {1}",
+    "movie": "Фільм: {0}",
+    "movie_with_age": "Фільм: {0}, Вік: {1} років",
+    "unique_genres": "Унікальні жанри: {0}",
+    "movie_list_paginated": "{0}"
+  },
+  "pagination": {
+    "displaying_page": "Відображення сторінки {0}:",
+    "navigation_options": "Опції навігації:\n'n' - наступна сторінка\n'p' - попередня сторінка\n'e' - вийти",
+    "choose_option": "Оберіть опцію (n/p/e):"
+  },
+  "menu": {
+    "choose_action": "Оберіть дію: "
+  }
+}
