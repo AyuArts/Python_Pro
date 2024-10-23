@@ -1,0 +1,50 @@
+{
+    "database": {
+        "connected": "Підключено до бази даних: {db_name}",
+        "connection_error": "Помилка підключення до бази даних: {error}",
+        "connection_closed": "Підключення до бази даних закрито."
+    },
+    "collections": {
+        "index_created": "Індекс за полем '{field}' створено для колекції '{collection_name}'.",
+        "index_dropped": "Унікальний індекс за полем '{field}' видалено з колекції '{collection_name}'.",
+        "collection_setup_error": "Помилка при створенні колекцій або індексів: {error}"
+    },
+    "products": {
+        "product_added": "Продукт {product_name} додано до категорії {category}.",
+        "product_updated": "Продукт {product_name} оновлено.",
+        "product_upsert_error": "Помилка при додаванні або оновленні продукту {product_name}.",
+        "product_quantity_updated": "Кількість продукту {product_name} оновлено.",
+        "product_quantity_update_error": "Помилка при оновленні кількості продукту {product_name}.",
+        "product_removed": "Видалено продуктів: {count}.",
+        "product_not_validata": "Немає валідних даних для вставки продуктів."
+    },
+    "orders": {
+        "order_created": "Створено нове замовлення {order_number} для клієнта {client_name}.",
+        "order_not_created": "Замовлення не було створено.",
+        "empty_or_invalid_product_list": "Список продуктів порожній або містить помилки.",
+        "recent_orders_retrieved": "Успішно отримано останні {count} замовлень за {days} днів.",
+        "recent_orders_count": "Кількість замовлень за останні {days} днів: {count}.",
+        "total_products_sold_retrieved": "Успішно отримано дані про продані продукти з {start_date} по {end_date}.",
+        "product_sold": "Продукт: {product_name}, Кількість продано: {total_sold}.",
+        "total_spent_retrieved": "Загальна сума замовлень клієнта {client_name} становить ${total_spent:.2f}.",
+        "no_orders_for_client": "У клієнта {client_name} немає замовлень.",
+        "recent_orders_error": "Помилка при отриманні останніх замовлень: {error}",
+        "total_products_sold_error": "Помилка при підрахунку проданих продуктів: {error}",
+        "total_spent_error": "Помилка при підрахунку загальної суми замовлень клієнта: {error}"
+    },
+    "validation": {
+        "product_validation_error": "Помилка валідації даних продукту: {error}",
+        "order_validation_error": "Помилка валідації даних замовлення: {error}",
+        "order_item_validation_error": "Помилка валідації даних позиції замовлення: {error}",
+        "invalid_product_format": "Невірний формат продукту: {item}"
+    },
+    "availability": {
+        "product_not_available": "Продукт {product_name} не доступний.",
+        "product_finished": "Продукт {product_name закінчився.",
+        "product_limited_quantity": "Продукту {product_name} залишилося лише {available_quantity}.",
+        "product_fully_purchased": "Продукт {product_name} повністю викуплений."
+    },
+    "general": {
+        "exception_in_with_block": "Виняток у блоці with: {error}"
+    }
+}

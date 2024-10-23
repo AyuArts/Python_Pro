@@ -1,0 +1,72 @@
+[
+    {
+        "event_id": "ef268a77-ed90-4669-baa5-989d95453806",
+        "user_id": "ef8868d9-cc46-42fb-8759-2e51e308d74c",
+        "event_type": "login",
+        "timestamp": "2024-10-23 19:17:49.635000",
+        "metadata": "Updated metadata"
+    },
+    {
+        "event_id": "63301cb4-1f48-461d-8765-c896b7f4a3dd",
+        "user_id": "61431c34-4f48-4736-a6b9-3e1e19d358c1",
+        "event_type": "login",
+        "timestamp": "2024-10-23 19:13:09.362000",
+        "metadata": "Updated metadata"
+    },
+    {
+        "event_id": "385e44e1-add1-4b8f-86e3-5f51000638e8",
+        "user_id": "b68dad8d-cd0e-4f97-9fa6-cb59ccf26211",
+        "event_type": "login",
+        "timestamp": "2024-10-23 19:17:46.288000",
+        "metadata": "User logged in successfully"
+    },
+    {
+        "event_id": "03b4be54-e3b5-49a0-8b9e-e6dba834e7d2",
+        "user_id": "8d9f1908-cc58-4d34-8495-7907442df430",
+        "event_type": "login",
+        "timestamp": "2024-10-23 19:13:42.648000",
+        "metadata": "User logged in successfully"
+    },
+    {
+        "event_id": "bc9faeac-a25e-438c-89a9-7555ed0922fd",
+        "user_id": "aac1aec5-5a23-4e62-8150-bd04886d2c2a",
+        "event_type": "login",
+        "timestamp": "2024-10-23 19:18:08.199000",
+        "metadata": "User logged in successfully"
+    },
+    {
+        "event_id": "cd51907c-b6ed-403c-9551-51de289db556",
+        "user_id": "b450dbf6-bdac-4b72-a7e8-c674e84c9d20",
+        "event_type": "login",
+        "timestamp": "2024-10-23 19:17:48.489000",
+        "metadata": "User logged in successfully"
+    },
+    {
+        "event_id": "2ed4a0ed-67cd-4c18-8a2f-8d068e76482e",
+        "user_id": "df37012b-1fee-4e01-972a-fc11405ce6c1",
+        "event_type": "login",
+        "timestamp": "2024-10-23 19:19:11.352000",
+        "metadata": "User logged in successfully"
+    },
+    {
+        "event_id": "7bca502c-62bd-4ca8-b207-644aa3e88b28",
+        "user_id": "5e80b1c2-9662-4580-9c2c-093ee06cfe9e",
+        "event_type": "login",
+        "timestamp": "2024-10-23 19:13:48.925000",
+        "metadata": "User logged in successfully"
+    },
+    {
+        "event_id": "ab973571-0058-4f82-a8f0-3e8eadfeb411",
+        "user_id": "b4aea2c2-6bf7-49b5-9f95-a2e2d5babe69",
+        "event_type": "login",
+        "timestamp": "2024-10-23 19:17:52.024000",
+        "metadata": "User logged in successfully"
+    },
+    {
+        "event_id": "954e6e3a-35b9-48dc-b3c9-d7299feddbb9",
+        "user_id": "63fb56b4-5d88-4ff7-b7f2-00c15cbf8ac8",
+        "event_type": "login",
+        "timestamp": "2024-10-23 19:17:50.708000",
+        "metadata": "User logged in successfully"
+    }
+]

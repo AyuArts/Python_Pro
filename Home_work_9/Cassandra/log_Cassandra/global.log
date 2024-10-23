@@ -1,0 +1,7 @@
+2024-10-23 19:19:11.308371000 | log_config.py: 134 | INFO | _configure_logging | Logging configured successfully.
+2024-10-23 19:19:11.351244000 | event_log_manager.py: 163 | INFO | Cassandra підключено до keyspace your_keyspace
+2024-10-23 19:19:11.352804000 | event_log_manager.py: 165 | INFO | Таблицю event_logs успішно створено
+2024-10-23 19:19:11.355449000 | event_log_manager.py: 168 | INFO | Подію 2ed4a0ed-67cd-4c18-8a2f-8d068e76482e для користувача df37012b-1fee-4e01-972a-fc11405ce6c1 створено
+2024-10-23 19:19:11.360113000 | event_log_manager.py: 176 | INFO | Подію ef268a77-ed90-4669-baa5-989d95453806 оновлено
+2024-10-23 19:19:11.364747000 | event_log_manager.py: 182 | INFO | Дані успішно експортовані у cassandra_data.json
+2024-10-23 19:19:11.365266000 | event_log_manager.py: 163 | INFO | Cassandra відключено

@@ -1,0 +1,23 @@
+{
+  "redis": {
+    "connected": "Redis підключено",
+    "disconnected": "Redis відключено",
+    "connection_error": "Помилка підключення до Redis"
+  },
+  "general": {
+    "save_session": "Сесію збережено",
+    "session_exists": "Сесія користувача вже існує",
+    "update_last_activity": "Час активності оновлено",
+    "session_not_found": "Сесія не знайдена",
+    "user_id_not_found_by_token": "User ID не знайдено за session_token",
+    "user_id_not_found": "User ID не знайдено",
+    "export_data": "Дані успішно експортовані в redis_data.json",
+    "session_token_saved": "Токен сесії успішно збережено: {session_token}, User ID: {user_id}",
+    "updated_session_info": "Оновлена інформація про сесію: User ID - {user_id}, Токен сесії - {session_token}, Час входу - {login_time}",
+    "delete_session": "Сесію для користувача {user_id} видалено",
+    "delete_session_token": "Токен сесії успішно видалено",
+    "exception_in_with_block": "Виникла помилка під час виконання блоку з контекстом",
+    "token_not_found_in_session": "Токен не знайдено в сесії",
+    "session_key_error": "Ключ сесії не знайдено"
+  }
+}
