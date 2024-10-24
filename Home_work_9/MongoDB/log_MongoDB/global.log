@@ -1,0 +1,76 @@
+2024-10-24 20:40:15.916529000 | log_config.py: 134 | INFO | _configure_logging | Logging configured successfully.
+2024-10-24 20:40:15.940044000 | my_mongo.py: 590 | INFO | Підключено до бази даних: grocery_store
+2024-10-24 20:40:15.943096000 | my_mongo.py: 147 | INFO | setup_products_collection | Індекс за полем 'category' створено для колекції 'products'.
+2024-10-24 20:40:15.943096000 | my_mongo.py: 155 | INFO | setup_products_collection | Індекс за полем 'product_name' створено для колекції 'products'.
+2024-10-24 20:40:15.943096000 | my_mongo.py: 173 | INFO | setup_orders_collection | Індекс за полем 'order_number' створено для колекції 'orders'.
+2024-10-24 20:40:15.944095000 | my_mongo.py: 181 | INFO | setup_orders_collection | Індекс за полем 'order_date' створено для колекції 'orders'.
+2024-10-24 20:40:15.965219000 | my_mongo.py: 563 | INFO | insert_products | Продукт Apple оновлено.
+2024-10-24 20:40:15.965795000 | my_mongo.py: 563 | INFO | insert_products | Продукт Banana оновлено.
+2024-10-24 20:40:15.965795000 | my_mongo.py: 563 | INFO | insert_products | Продукт Carrot оновлено.
+2024-10-24 20:40:15.965795000 | my_mongo.py: 563 | INFO | insert_products | Продукт Orange оновлено.
+2024-10-24 20:40:15.966799000 | my_mongo.py: 563 | INFO | insert_products | Продукт Potato оновлено.
+2024-10-24 20:40:15.966799000 | my_mongo.py: 233 | INFO | insert_product | Продукт Apple оновлено.
+2024-10-24 20:40:15.966799000 | my_mongo.py: 233 | INFO | insert_product | Продукт Banana оновлено.
+2024-10-24 20:40:15.967800000 | my_mongo.py: 233 | INFO | insert_product | Продукт Carrot оновлено.
+2024-10-24 20:40:15.967800000 | my_mongo.py: 233 | INFO | insert_product | Продукт Orange оновлено.
+2024-10-24 20:40:15.967800000 | my_mongo.py: 233 | INFO | insert_product | Продукт Potato оновлено.
+2024-10-24 20:40:15.979811000 | my_mongo.py: 315 | INFO | insert_order | Кількість продукту Apple оновлено.
+2024-10-24 20:40:15.979811000 | my_mongo.py: 315 | INFO | insert_order | Кількість продукту Banana оновлено.
+2024-10-24 20:40:15.993823000 | my_mongo.py: 317 | INFO | insert_order | Створено нове замовлення 37 для клієнта John Doe.
+2024-10-24 20:40:15.994824000 | my_mongo.py: 315 | INFO | insert_order | Кількість продукту Banana оновлено.
+2024-10-24 20:40:15.994824000 | my_mongo.py: 315 | INFO | insert_order | Кількість продукту Carrot оновлено.
+2024-10-24 20:40:15.995823000 | my_mongo.py: 317 | INFO | insert_order | Створено нове замовлення 38 для клієнта Jane Smith.
+2024-10-24 20:40:15.995823000 | my_mongo.py: 315 | INFO | insert_order | Кількість продукту Carrot оновлено.
+2024-10-24 20:40:15.996823000 | my_mongo.py: 315 | INFO | insert_order | Кількість продукту Potato оновлено.
+2024-10-24 20:40:15.996823000 | my_mongo.py: 317 | INFO | insert_order | Створено нове замовлення 39 для клієнта Bob Brown.
+2024-10-24 20:40:15.997823000 | my_mongo.py: 315 | INFO | insert_order | Кількість продукту Orange оновлено.
+2024-10-24 20:40:15.997823000 | my_mongo.py: 315 | INFO | insert_order | Кількість продукту Apple оновлено.
+2024-10-24 20:40:15.998823000 | my_mongo.py: 317 | INFO | insert_order | Створено нове замовлення 40 для клієнта Alice Johnson.
+2024-10-24 20:40:15.999823000 | my_mongo.py: 613 | INFO | Успішно отримано останні 40 замовлень за 30 днів.
+2024-10-24 20:40:15.999823000 | my_mongo.py: 613 | INFO | Кількість замовлень за останні 30 днів: 40.
+2024-10-24 20:40:16.006877000 | my_mongo.py: 614 | INFO | Успішно отримано дані про продані продукти з 2024-09-24 20:40:15.999823 по 2024-10-24 20:40:15.999823.
+2024-10-24 20:40:16.006877000 | my_mongo.py: 614 | INFO | Продукт: Apple, Кількість продано: 800.
+2024-10-24 20:40:16.006877000 | my_mongo.py: 614 | INFO | Продукт: Banana, Кількість продано: 800.
+2024-10-24 20:40:16.006877000 | my_mongo.py: 614 | INFO | Продукт: Potato, Кількість продано: 1000.
+2024-10-24 20:40:16.006877000 | my_mongo.py: 614 | INFO | Продукт: Orange, Кількість продано: 400.
+2024-10-24 20:40:16.006877000 | my_mongo.py: 614 | INFO | Продукт: Carrot, Кількість продано: 400.
+2024-10-24 20:40:16.016558000 | my_mongo.py: 615 | INFO | Загальна сума замовлень клієнта John Doe становить $922.00.
+2024-10-24 20:40:16.017559000 | my_mongo.py: 590 | INFO | Підключення до бази даних закрито.
+2024-10-24 20:40:32.147540000 | log_config.py: 134 | INFO | _configure_logging | Logging configured successfully.
+2024-10-24 20:40:32.167065000 | my_mongo.py: 111 | INFO | __enter__ | Підключено до бази даних: grocery_store
+2024-10-24 20:40:32.168060000 | my_mongo.py: 217 | INFO | create_index | Індекс за полем 'category' створено для колекції 'products'.
+2024-10-24 20:40:32.168060000 | my_mongo.py: 217 | INFO | create_index | Індекс за полем 'product_name' створено для колекції 'products'.
+2024-10-24 20:40:32.169061000 | my_mongo.py: 217 | INFO | create_index | Індекс за полем 'order_number' створено для колекції 'orders'.
+2024-10-24 20:40:32.169061000 | my_mongo.py: 217 | INFO | create_index | Індекс за полем 'order_date' створено для колекції 'orders'.
+2024-10-24 20:40:32.169061000 | my_mongo.py: 277 | INFO | upsert_product | Продукт Apple оновлено.
+2024-10-24 20:40:32.170060000 | my_mongo.py: 277 | INFO | upsert_product | Продукт Banana оновлено.
+2024-10-24 20:40:32.170060000 | my_mongo.py: 277 | INFO | upsert_product | Продукт Carrot оновлено.
+2024-10-24 20:40:32.170060000 | my_mongo.py: 277 | INFO | upsert_product | Продукт Orange оновлено.
+2024-10-24 20:40:32.170060000 | my_mongo.py: 277 | INFO | upsert_product | Продукт Potato оновлено.
+2024-10-24 20:40:32.171320000 | my_mongo.py: 277 | INFO | upsert_product | Продукт Apple оновлено.
+2024-10-24 20:40:32.171320000 | my_mongo.py: 277 | INFO | upsert_product | Продукт Banana оновлено.
+2024-10-24 20:40:32.171320000 | my_mongo.py: 277 | INFO | upsert_product | Продукт Carrot оновлено.
+2024-10-24 20:40:32.172320000 | my_mongo.py: 277 | INFO | upsert_product | Продукт Orange оновлено.
+2024-10-24 20:40:32.172320000 | my_mongo.py: 277 | INFO | upsert_product | Продукт Potato оновлено.
+2024-10-24 20:40:32.173319000 | my_mongo.py: 460 | INFO | update_product_quantities | Кількість продукту Apple оновлено.
+2024-10-24 20:40:32.173319000 | my_mongo.py: 460 | INFO | update_product_quantities | Кількість продукту Banana оновлено.
+2024-10-24 20:40:32.174320000 | my_mongo.py: 496 | INFO | insert_order_document | Створено нове замовлення 41 для клієнта John Doe.
+2024-10-24 20:40:32.175319000 | my_mongo.py: 460 | INFO | update_product_quantities | Кількість продукту Banana оновлено.
+2024-10-24 20:40:32.175319000 | my_mongo.py: 460 | INFO | update_product_quantities | Кількість продукту Carrot оновлено.
+2024-10-24 20:40:32.175319000 | my_mongo.py: 496 | INFO | insert_order_document | Створено нове замовлення 42 для клієнта Jane Smith.
+2024-10-24 20:40:32.176319000 | my_mongo.py: 460 | INFO | update_product_quantities | Кількість продукту Carrot оновлено.
+2024-10-24 20:40:32.176319000 | my_mongo.py: 460 | INFO | update_product_quantities | Кількість продукту Potato оновлено.
+2024-10-24 20:40:32.177319000 | my_mongo.py: 496 | INFO | insert_order_document | Створено нове замовлення 43 для клієнта Bob Brown.
+2024-10-24 20:40:32.178319000 | my_mongo.py: 460 | INFO | update_product_quantities | Кількість продукту Orange оновлено.
+2024-10-24 20:40:32.178319000 | my_mongo.py: 460 | INFO | update_product_quantities | Кількість продукту Apple оновлено.
+2024-10-24 20:40:32.178319000 | my_mongo.py: 496 | INFO | insert_order_document | Створено нове замовлення 44 для клієнта Alice Johnson.
+2024-10-24 20:40:32.179320000 | my_mongo.py: 519 | INFO | show_recent_orders | Успішно отримано останні 44 замовлень за 30 днів.
+2024-10-24 20:40:32.179320000 | my_mongo.py: 520 | INFO | show_recent_orders | Кількість замовлень за останні 30 днів: 44.
+2024-10-24 20:40:32.180320000 | my_mongo.py: 541 | INFO | show_total_products_sold | Успішно отримано дані про продані продукти з 2024-09-24 20:40:32.179320 по 2024-10-24 20:40:32.179320.
+2024-10-24 20:40:32.180320000 | my_mongo.py: 544 | INFO | show_total_products_sold | Продукт: Orange, Кількість продано: 440.
+2024-10-24 20:40:32.180320000 | my_mongo.py: 544 | INFO | show_total_products_sold | Продукт: Carrot, Кількість продано: 440.
+2024-10-24 20:40:32.180320000 | my_mongo.py: 544 | INFO | show_total_products_sold | Продукт: Apple, Кількість продано: 880.
+2024-10-24 20:40:32.180824000 | my_mongo.py: 544 | INFO | show_total_products_sold | Продукт: Banana, Кількість продано: 880.
+2024-10-24 20:40:32.180824000 | my_mongo.py: 544 | INFO | show_total_products_sold | Продукт: Potato, Кількість продано: 1100.
+2024-10-24 20:40:32.180824000 | my_mongo.py: 583 | INFO | show_total_spent_by_client | Загальна сума замовлень клієнта John Doe становить $1014.20.
+2024-10-24 20:40:32.180824000 | my_mongo.py: 123 | INFO | __exit__ | Підключення до бази даних закрито.

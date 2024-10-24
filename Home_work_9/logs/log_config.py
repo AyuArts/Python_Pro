@@ -149,7 +149,7 @@ class CustomLogger:
             message = message_keys
             extra = {}
 
-        depth = 3  # Фиксированная глубина для логов
+        depth = 2  # Фиксированная глубина для логов
         logger.opt(depth=depth).log(level, message, extra=extra)
 
     def info(self, message_keys: Union[List[str], str], *args: Any, **kwargs: Any) -> None:

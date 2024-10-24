@@ -1,0 +1,10 @@
+{
+  "task1": {
+    "file_uploaded_successfully": "Файл {filename} успешно скачан.",
+    "all_files_uploaded_successfully": "Все файлы успешно скачаны."
+
+  },
+  "general": {
+    "exception_in_with_block": "Виникла помилка під час виконання блоку з контекстом"
+  }
+}

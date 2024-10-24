@@ -30,3 +30,35 @@
 2024-10-23 19:05:28.241937000 | my_redis.py: 315 | INFO | Токен сесії успішно видалено
 2024-10-23 19:05:28.243623000 | my_redis.py: 321 | INFO | Дані успішно експортовані в redis_data.json
 2024-10-23 19:05:28.243623000 | my_redis.py: 304 | INFO | Redis відключено
+2024-10-24 20:41:34.171384000 | log_config.py: 134 | INFO | _configure_logging | Logging configured successfully.
+2024-10-24 20:41:34.177438000 | my_redis.py: 54 | INFO | __enter__ | Redis підключено
+2024-10-24 20:41:34.178438000 | my_redis.py: 137 | INFO | create_session_user | Токен сесії успішно збережено: 145f71e5-c80c-44d8-b59a-aefd81a97a95, User ID: ayu
+2024-10-24 20:41:34.179495000 | my_redis.py: 147 | INFO | create_session_user | Сесію збережено
+2024-10-24 20:41:34.180495000 | my_redis.py: 137 | INFO | create_session_user | Токен сесії успішно збережено: f4f2d4f2-1988-4d54-911b-83c19d36efb8, User ID: viki
+2024-10-24 20:41:34.181495000 | my_redis.py: 147 | INFO | create_session_user | Сесію збережено
+2024-10-24 20:41:34.181495000 | my_redis.py: 242 | INFO | update_last_activity | Час активності оновлено
+2024-10-24 20:41:34.181495000 | my_redis.py: 284 | INFO | updated_session_info | Оновлена інформація про сесію: User ID - ayu, Токен сесії - 145f71e5-c80c-44d8-b59a-aefd81a97a95, Час входу - 2024-10-24 20:41:34
+2024-10-24 20:41:34.182676000 | my_redis.py: 242 | INFO | update_last_activity | Час активності оновлено
+2024-10-24 20:41:34.182676000 | my_redis.py: 284 | INFO | updated_session_info | Оновлена інформація про сесію: User ID - viki, Токен сесії - f4f2d4f2-1988-4d54-911b-83c19d36efb8, Час входу - 2024-10-24 20:41:34
+2024-10-24 20:41:34.183675000 | my_redis.py: 262 | INFO | delete_session | Сесію для користувача ayu видалено
+2024-10-24 20:41:34.183675000 | my_redis.py: 267 | INFO | delete_session | Токен сесії успішно видалено
+2024-10-24 20:41:34.183675000 | my_redis.py: 262 | INFO | delete_session | Сесію для користувача viki видалено
+2024-10-24 20:41:34.183675000 | my_redis.py: 267 | INFO | delete_session | Токен сесії успішно видалено
+2024-10-24 20:41:34.185726000 | my_redis.py: 219 | INFO | database_to_json | Дані успішно експортовані в redis_data.json
+2024-10-24 20:41:34.185726000 | my_redis.py: 70 | INFO | __exit__ | Redis відключено
+2024-10-24 21:11:43.655219000 | log_config.py: 134 | INFO | _configure_logging | Logging configured successfully.
+2024-10-24 21:11:43.658223000 | my_redis.py: 54 | INFO | __enter__ | Redis підключено
+2024-10-24 21:11:43.659222000 | my_redis.py: 137 | INFO | create_session_user | Токен сесії успішно збережено: 33454962-e38b-4d02-acad-adf6d97c7796, User ID: ayu
+2024-10-24 21:11:43.660223000 | my_redis.py: 147 | INFO | create_session_user | Сесію збережено
+2024-10-24 21:11:43.660223000 | my_redis.py: 137 | INFO | create_session_user | Токен сесії успішно збережено: 99ff6552-7d98-4df8-96cc-bb06e6e328fb, User ID: viki
+2024-10-24 21:11:43.661726000 | my_redis.py: 147 | INFO | create_session_user | Сесію збережено
+2024-10-24 21:11:43.661726000 | my_redis.py: 242 | INFO | update_last_activity | Час активності оновлено
+2024-10-24 21:11:43.662731000 | my_redis.py: 284 | INFO | updated_session_info | Оновлена інформація про сесію: User ID - ayu, Токен сесії - 33454962-e38b-4d02-acad-adf6d97c7796, Час входу - 2024-10-24 21:11:43
+2024-10-24 21:11:43.662731000 | my_redis.py: 242 | INFO | update_last_activity | Час активності оновлено
+2024-10-24 21:11:43.663731000 | my_redis.py: 284 | INFO | updated_session_info | Оновлена інформація про сесію: User ID - viki, Токен сесії - 99ff6552-7d98-4df8-96cc-bb06e6e328fb, Час входу - 2024-10-24 21:11:43
+2024-10-24 21:11:43.663731000 | my_redis.py: 262 | INFO | delete_session | Сесію для користувача ayu видалено
+2024-10-24 21:11:43.663731000 | my_redis.py: 267 | INFO | delete_session | Токен сесії успішно видалено
+2024-10-24 21:11:43.664732000 | my_redis.py: 262 | INFO | delete_session | Сесію для користувача viki видалено
+2024-10-24 21:11:43.664732000 | my_redis.py: 267 | INFO | delete_session | Токен сесії успішно видалено
+2024-10-24 21:11:43.666386000 | my_redis.py: 219 | INFO | database_to_json | Дані успішно експортовані в redis_data.json
+2024-10-24 21:11:43.666386000 | my_redis.py: 70 | INFO | __exit__ | Redis відключено
