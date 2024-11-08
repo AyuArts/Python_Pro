@@ -1,0 +1,8 @@
+{% extends 'main/base.html' %}
+{% block title %}Про нас{% endblock %}
+{% block content %}
+    <h1>Про нас</h1>
+    <p>{{ company_history|truncatechars:100 }}</p>
+    <p>Наша місія: {{ mission|default:"Інформація відсутня" }}</p>
+    <p>Оновлено: {{ updated_date|date:"d-m-Y" }}</p>
+{% endblock %}
