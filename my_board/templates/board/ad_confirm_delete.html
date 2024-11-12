@@ -1,0 +1,13 @@
+{% extends 'board/base.html' %}
+
+{% block title %}Видалення оголошення{% endblock %}
+
+{% block content %}
+<h2>Видалити оголошення</h2>
+<p>Ви впевнені, що хочете видалити це оголошення: "{{ ad.title }}"?</p>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Так, видалити</button>
+    <a href="{% url 'board:ad_detail' ad.pk %}">Скасувати</a>
+</form>
+{% endblock %}
