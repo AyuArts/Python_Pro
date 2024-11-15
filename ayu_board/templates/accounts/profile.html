@@ -1,0 +1,23 @@
+<!-- profile.html -->
+{% extends 'accounts/base.html' %}
+{% load static %}
+{% block title %}Профіль{% endblock %}
+{% block content %}
+  <div class="container mt-4">
+    <div class="card mx-auto" style="max-width: 600px;">
+      <div class="card-header bg-primary text-white">
+        <h2 class="mb-0">Профіль користувача {{ user_profile.user.username }}</h2>
+      </div>
+      <div class="card-body text-center">
+        {% if user_profile.avatar %}
+          <img src="{{ user_profile.avatar.url }}" alt="Аватар" class="rounded-circle mb-3" width="150" height="150">
+        {% else %}
+          <img src="{% static 'default_avatar.png' %}" alt="Аватар" class="rounded-circle mb-3" width="150" height="150">
+        {% endif %}
+        <p><strong>Біографія:</strong> {{ user_profile.bio }}</p>
+        <p><strong>Дата народження:</strong> {{ user_profile.birth_date }}</p>
+        <p><strong>Місце проживання:</strong> {{ user_profile.location }}</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'accounts/base.html' %}
+{% load widget_tweaks %}
+{% block title %}Видалення облікового запису{% endblock %}
+{% block content %}
+  <div class="container mt-4">
+    <div class="card mx-auto" style="max-width: 600px;">
+      <div class="card-header bg-danger text-white">
+        <h2 class="mb-0">Видалення облікового запису</h2>
+      </div>
+      <div class="card-body">
+        <p>Ви впевнені, що хочете видалити свій обліковий запис? Цю дію не можна скасувати.</p>
+        <form method="post">
+          {% csrf_token %}
+          <button type="submit" class="btn btn-danger">Видалити обліковий запис</button>
+          <a href="{% url 'profile' %}" class="btn btn-secondary">Скасувати</a>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}

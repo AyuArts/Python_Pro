@@ -1,0 +1,20 @@
+{% extends 'accounts/base.html' %}
+{% load widget_tweaks %}
+{% block title %}Вихід{% endblock %}
+{% block content %}
+  <div class="container mt-4">
+    <div class="card mx-auto" style="max-width: 400px;">
+      <div class="card-header bg-primary text-white">
+        <h2 class="mb-0">Вихід</h2>
+      </div>
+      <div class="card-body">
+        <h4>Ви впевнені, що хочете вийти?</h4>
+        <form method="post">
+          {% csrf_token %}
+          <button type="submit" class="btn btn-danger">Вийти</button>
+          <a href="{% url 'profile' %}" class="btn btn-secondary">Скасувати</a>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}
