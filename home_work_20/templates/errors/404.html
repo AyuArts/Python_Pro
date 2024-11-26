@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Страница не найдена - 404{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1>404</h1>
+    <p>Извините, страница не найдена.</p>
+    <p><a href="{% url 'home' %}">Вернуться на главную страницу</a></p>
+</div>
+{% endblock %}
