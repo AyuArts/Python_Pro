@@ -1,0 +1,195 @@
+2024-10-17 18:49:25,867 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS movies (
+    id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    release_year INTEGER NOT NULL,
+    genre TEXT NOT NULL
+); з параметрами: ()
+2024-10-17 18:49:25,867 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS actors (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    birth_year INTEGER NOT NULL
+); з параметрами: ()
+2024-10-17 18:49:25,867 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS movie_cast (
+    movie_id INTEGER NOT NULL,
+    actor_id INTEGER NOT NULL,
+    PRIMARY KEY (movie_id, actor_id),
+    FOREIGN KEY (movie_id) REFERENCES movies (id),
+    FOREIGN KEY (actor_id) REFERENCES actors (id)
+); з параметрами: ()
+2024-10-17 18:49:25,868 - console_logger - INFO - Меню Кінобази
+2024-10-17 18:49:25,868 - console_logger - INFO - 1. Додати фільм
+2024-10-17 18:49:25,868 - console_logger - INFO - 2. Додати актора
+2024-10-17 18:49:25,868 - console_logger - INFO - 3. Показати всі фільми з акторами
+2024-10-17 18:49:25,868 - console_logger - INFO - 4. Показати унікальні жанри
+2024-10-17 18:49:25,868 - console_logger - INFO - 5. Показати кількість фільмів за жанром
+2024-10-17 18:49:25,868 - console_logger - INFO - 6. Показати середній рік народження акторів у фільмах певного жанру
+2024-10-17 18:49:25,868 - console_logger - INFO - 7. Пошук фільму за назвою
+2024-10-17 18:49:25,868 - console_logger - INFO - 8. Показать фильмы (с пагинацией)
+2024-10-17 18:49:25,868 - console_logger - INFO - 9. Показати імена всіх акторів та назви всіх фільмів
+2024-10-17 18:49:25,868 - console_logger - INFO - 10. Показати фільми з їхнім віком
+2024-10-17 18:49:25,868 - console_logger - INFO - 0. Вихід
+2024-10-17 18:50:04,784 - db_logger - DEBUG - Виконання запиту: INSERT INTO actors (name, birth_year)
+VALUES (?, ?);
+ з параметрами: ('Мама ', 1973)
+2024-10-17 18:50:04,787 - console_logger - INFO - Актор з ID 21 успішно додано до фільму.
+2024-10-17 18:50:04,787 - console_logger - INFO - Меню Кінобази
+2024-10-17 18:50:04,787 - console_logger - INFO - 1. Додати фільм
+2024-10-17 18:50:04,787 - console_logger - INFO - 2. Додати актора
+2024-10-17 18:50:04,787 - console_logger - INFO - 3. Показати всі фільми з акторами
+2024-10-17 18:50:04,787 - console_logger - INFO - 4. Показати унікальні жанри
+2024-10-17 18:50:04,787 - console_logger - INFO - 5. Показати кількість фільмів за жанром
+2024-10-17 18:50:04,787 - console_logger - INFO - 6. Показати середній рік народження акторів у фільмах певного жанру
+2024-10-17 18:50:04,787 - console_logger - INFO - 7. Пошук фільму за назвою
+2024-10-17 18:50:04,787 - console_logger - INFO - 8. Показать фильмы (с пагинацией)
+2024-10-17 18:50:04,787 - console_logger - INFO - 9. Показати імена всіх акторів та назви всіх фільмів
+2024-10-17 18:50:04,787 - console_logger - INFO - 10. Показати фільми з їхнім віком
+2024-10-17 18:50:04,787 - console_logger - INFO - 0. Вихід
+2024-10-17 19:09:48,545 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS movies (
+    id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    release_year INTEGER NOT NULL,
+    genre TEXT NOT NULL
+); з параметрами: ()
+2024-10-17 19:09:48,546 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS actors (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    birth_year INTEGER NOT NULL
+); з параметрами: ()
+2024-10-17 19:09:48,546 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS movie_cast (
+    movie_id INTEGER NOT NULL,
+    actor_id INTEGER NOT NULL,
+    PRIMARY KEY (movie_id, actor_id),
+    FOREIGN KEY (movie_id) REFERENCES movies (id),
+    FOREIGN KEY (actor_id) REFERENCES actors (id)
+); з параметрами: ()
+2024-10-17 19:09:48,546 - console_logger - INFO - Меню Кінобази
+2024-10-17 19:09:48,547 - console_logger - INFO - 1. Додати фільм
+2024-10-17 19:09:48,547 - console_logger - INFO - 2. Додати актора
+2024-10-17 19:09:48,547 - console_logger - INFO - 3. Показати всі фільми з акторами
+2024-10-17 19:09:48,547 - console_logger - INFO - 4. Показати унікальні жанри
+2024-10-17 19:09:48,547 - console_logger - INFO - 5. Показати кількість фільмів за жанром
+2024-10-17 19:09:48,547 - console_logger - INFO - 6. Показати середній рік народження акторів у фільмах певного жанру
+2024-10-17 19:09:48,547 - console_logger - INFO - 7. Пошук фільму за назвою
+2024-10-17 19:09:48,547 - console_logger - INFO - 8. Показать фильмы (с пагинацией)
+2024-10-17 19:09:48,547 - console_logger - INFO - 9. Показати імена всіх акторів та назви всіх фільмів
+2024-10-17 19:09:48,547 - console_logger - INFO - 10. Показати фільми з їхнім віком
+2024-10-17 19:09:48,547 - console_logger - INFO - 0. Вихід
+2024-10-17 19:10:22,660 - db_logger - DEBUG - Виконання запиту: INSERT INTO movies (title, release_year, genre)
+VALUES (?, ?, ?); з параметрами: ('Звездные войны', 1977, 'фантастика')
+2024-10-17 19:10:22,663 - console_logger - INFO - Фільм успішно додано.
+2024-10-17 19:10:22,664 - db_logger - DEBUG - Виконання запиту: SELECT id AS actor_id, name
+FROM actors;
+ з параметрами: ()
+2024-10-17 19:10:22,664 - db_logger - DEBUG - Результат запиту: [(1, 'Киану Ривз'), (2, 'Мэттью Макконахи'), (3, 'Марк Хэмилл'), (4, 'Леонардо ДиКаприо'), (5, 'Сэм Уортингтон'), (6, 'Арнольд Шварценеггер'), (7, 'Том Харди'), (8, 'Рассел Кроу'), (9, 'Киану Ривз'), (10, 'Сандра Буллок'), (11, 'Хоакин Феникс'), (12, 'Том Хэнкс'), (13, 'Морган Фриман'), (14, 'Джим Керри'), (15, 'Маколей Калкин'), (16, 'Брэд Питт'), (17, 'Бен Аффлек'), (18, 'Джеймс Эрл Джонс'), (19, 'Джордж Клуни'), (20, 'Скарлетт Йоханссон'), (21, 'Мама ')]
+2024-10-17 19:10:22,664 - console_logger - INFO - Оберіть акторів для фільму:
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 1, Ім'я: Киану Ривз
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 2, Ім'я: Мэттью Макконахи
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 3, Ім'я: Марк Хэмилл
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 4, Ім'я: Леонардо ДиКаприо
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 5, Ім'я: Сэм Уортингтон
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 6, Ім'я: Арнольд Шварценеггер
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 7, Ім'я: Том Харди
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 8, Ім'я: Рассел Кроу
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 9, Ім'я: Киану Ривз
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 10, Ім'я: Сандра Буллок
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 11, Ім'я: Хоакин Феникс
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 12, Ім'я: Том Хэнкс
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 13, Ім'я: Морган Фриман
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 14, Ім'я: Джим Керри
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 15, Ім'я: Маколей Калкин
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 16, Ім'я: Брэд Питт
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 17, Ім'я: Бен Аффлек
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 18, Ім'я: Джеймс Эрл Джонс
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 19, Ім'я: Джордж Клуни
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 20, Ім'я: Скарлетт Йоханссон
+2024-10-17 19:10:22,664 - console_logger - INFO - ID: 21, Ім'я: Мама 
+2024-10-17 19:27:47,990 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS movies (
+    id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    release_year INTEGER NOT NULL,
+    genre TEXT NOT NULL
+); з параметрами: ()
+2024-10-17 19:27:47,991 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS actors (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    birth_year INTEGER NOT NULL
+); з параметрами: ()
+2024-10-17 19:27:47,991 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS movie_cast (
+    movie_id INTEGER NOT NULL,
+    actor_id INTEGER NOT NULL,
+    PRIMARY KEY (movie_id, actor_id),
+    FOREIGN KEY (movie_id) REFERENCES movies (id),
+    FOREIGN KEY (actor_id) REFERENCES actors (id)
+); з параметрами: ()
+2024-10-17 19:27:47,991 - console_logger - INFO - Меню Кінобази
+2024-10-17 19:27:47,991 - console_logger - INFO - 1. Додати фільм
+2024-10-17 19:27:47,991 - console_logger - INFO - 2. Додати актора
+2024-10-17 19:27:47,991 - console_logger - INFO - 3. Показати всі фільми з акторами
+2024-10-17 19:27:47,991 - console_logger - INFO - 4. Показати унікальні жанри
+2024-10-17 19:27:47,991 - console_logger - INFO - 5. Показати кількість фільмів за жанром
+2024-10-17 19:27:47,991 - console_logger - INFO - 6. Показати середній рік народження акторів у фільмах певного жанру
+2024-10-17 19:27:47,991 - console_logger - INFO - 7. Пошук фільму за назвою
+2024-10-17 19:27:47,991 - console_logger - INFO - 8. Показать фильмы (с пагинацией)
+2024-10-17 19:27:47,991 - console_logger - INFO - 9. Показати імена всіх акторів та назви всіх фільмів
+2024-10-17 19:27:47,991 - console_logger - INFO - 10. Показати фільми з їхнім віком
+2024-10-17 19:27:47,991 - console_logger - INFO - 0. Вихід
+2024-10-18 13:00:10,014 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS movies (
+    id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    release_year INTEGER NOT NULL,
+    genre TEXT NOT NULL
+); з параметрами: ()
+2024-10-18 13:00:10,015 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS actors (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    birth_year INTEGER NOT NULL
+); з параметрами: ()
+2024-10-18 13:00:10,016 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS movie_cast (
+    movie_id INTEGER NOT NULL,
+    actor_id INTEGER NOT NULL,
+    PRIMARY KEY (movie_id, actor_id),
+    FOREIGN KEY (movie_id) REFERENCES movies (id),
+    FOREIGN KEY (actor_id) REFERENCES actors (id)
+); з параметрами: ()
+2024-10-18 13:00:10,016 - console_logger - INFO - Меню Кінобази
+2024-10-18 13:00:10,016 - console_logger - INFO - 1. Додати фільм
+2024-10-18 13:00:10,016 - console_logger - INFO - 2. Додати актора
+2024-10-18 13:00:10,016 - console_logger - INFO - 3. Показати всі фільми з акторами
+2024-10-18 13:00:10,016 - console_logger - INFO - 4. Показати унікальні жанри
+2024-10-18 13:00:10,016 - console_logger - INFO - 5. Показати кількість фільмів за жанром
+2024-10-18 13:00:10,016 - console_logger - INFO - 6. Показати середній рік народження акторів у фільмах певного жанру
+2024-10-18 13:00:10,016 - console_logger - INFO - 7. Пошук фільму за назвою
+2024-10-18 13:00:10,016 - console_logger - INFO - 8. Показать фильмы (с пагинацией)
+2024-10-18 13:00:10,016 - console_logger - INFO - 9. Показати імена всіх акторів та назви всіх фільмів
+2024-10-18 13:00:10,016 - console_logger - INFO - 10. Показати фільми з їхнім віком
+2024-10-18 13:00:10,016 - console_logger - INFO - 0. Вихід
+2024-10-19 15:09:56,326 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS movies (
+    id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    release_year INTEGER NOT NULL,
+    genre TEXT NOT NULL
+); з параметрами: ()
+2024-10-19 15:09:56,345 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS actors (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    birth_year INTEGER NOT NULL
+); з параметрами: ()
+2024-10-19 15:09:56,356 - db_logger - DEBUG - Виконання запиту: CREATE TABLE IF NOT EXISTS movie_cast (
+    movie_id INTEGER NOT NULL,
+    actor_id INTEGER NOT NULL,
+    PRIMARY KEY (movie_id, actor_id),
+    FOREIGN KEY (movie_id) REFERENCES movies (id),
+    FOREIGN KEY (actor_id) REFERENCES actors (id)
+); з параметрами: ()
+2024-10-19 15:09:56,357 - console_logger - INFO - Меню Кінобази
+2024-10-19 15:09:56,357 - console_logger - INFO - 1. Додати фільм
+2024-10-19 15:09:56,357 - console_logger - INFO - 2. Додати актора
+2024-10-19 15:09:56,357 - console_logger - INFO - 3. Показати всі фільми з акторами
+2024-10-19 15:09:56,357 - console_logger - INFO - 4. Показати унікальні жанри
+2024-10-19 15:09:56,357 - console_logger - INFO - 5. Показати кількість фільмів за жанром
+2024-10-19 15:09:56,357 - console_logger - INFO - 6. Показати середній рік народження акторів у фільмах певного жанру
+2024-10-19 15:09:56,358 - console_logger - INFO - 7. Пошук фільму за назвою
+2024-10-19 15:09:56,358 - console_logger - INFO - 8. Показать фильмы (с пагинацией)
+2024-10-19 15:09:56,358 - console_logger - INFO - 9. Показати імена всіх акторів та назви всіх фільмів
+2024-10-19 15:09:56,358 - console_logger - INFO - 10. Показати фільми з їхнім віком
+2024-10-19 15:09:56,358 - console_logger - INFO - 0. Вихід

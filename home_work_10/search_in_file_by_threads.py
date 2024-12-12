@@ -60,4 +60,4 @@ def search_in_file_by_threads(file_path, search_text, num_threads=4):
 
 
 # Виклик функції для пошуку в одному з файлів
-search_in_file_by_threads("./downloads/large_file1.txt", "large", num_threads=4)
+search_in_file_by_threads("../large_file1.txt", "large", num_threads=4)

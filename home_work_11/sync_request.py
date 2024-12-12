@@ -48,8 +48,11 @@ async def async_request(session):
     """
     Асинхронний запит за допомогою aiohttp.
     """
-    async with session.get(URL) as response:
-        return response.status
+    try:
+        async with session.get(URL, timeout=1) as response:
+            return await response.text()
+    except asyncio.TimeoutError:
+        return "Request Timeout"
 
 async def run_async():
     """
@@ -64,7 +67,7 @@ async def run_async():
 
 if __name__ == "__main__":
     # Синхронне виконання
-    run_sync()
+    # run_sync()
 
     # Багатопотокове виконання
     run_multithreading()

@@ -234,7 +234,7 @@ class MovieDatabase:
 
         # Связываем выбранных актёров с фильмом
         for actor_id in selected_indices:
-            self.execute_script('insert_movie_actor.sql', (movie_id, actor_id))
+            self.execute_script('link_actor_to_movie.sql', (movie_id, actor_id))
 
         self.display.show_message("messages", "actors_added_to_movie")
 
