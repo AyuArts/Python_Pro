@@ -1,0 +1,44 @@
+<div class="container mt-5">
+    {% csrf_token %}
+    <h1 class="text-center">{{ title }}</h1>
+    <hr>
+
+    {% if form.errors %}
+        <div class="alert alert-danger">
+            <ul class="mb-0">
+                {% for field, errors in form.errors.items %}
+                    {% for error in errors %}
+                        <li>{{ error }}</li>
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <form action="{{ action_url }}" method="post" class="mb-3">
+                {% csrf_token %}
+                {% for field in form %}
+                    <div class="mb-3">
+                        {{ field.label_tag }}
+                        {{ field }}
+                        {% if field.errors %}
+                            <div class="text-danger">{{ field.errors|join:", " }}</div>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+                <button type="submit" class="btn btn-success w-100">{{ button_text }}</button>
+            </form>
+
+            {% if extra_links %}
+                <p class="text-center">
+                    {% for link in extra_links %}
+                        <a href="{{ link.url }}">{{ link.text }}</a>
+                        {% if not forloop.last %}|{% endif %}
+                    {% endfor %}
+                </p>
+            {% endif %}
+        </div>
+    </div>
+</div>

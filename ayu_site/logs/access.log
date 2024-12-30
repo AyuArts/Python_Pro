@@ -1,0 +1,347 @@
+[2024-11-21 22:08:11] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 22:08:33] INFO [users:12] User root accessed /users/auth/logout/
+[2024-11-21 22:08:33] INFO [django.server:213] "POST /users/auth/logout/ HTTP/1.1" 302 0
+[2024-11-21 22:08:33] INFO [users:12] User Anonymous accessed /
+[2024-11-21 22:08:33] INFO [django.server:213] "GET / HTTP/1.1" 200 2345
+[2024-11-21 22:09:14] INFO [users:12] User Anonymous accessed /users/login/
+[2024-11-21 22:09:14] INFO [django.server:213] "GET /users/login/ HTTP/1.1" 200 3703
+[2024-11-21 22:09:25] INFO [users:12] User Anonymous accessed /users/login/
+[2024-11-21 22:09:27] WARNING [users.views:55] Failed login attempt with username: root
+[2024-11-21 22:09:27] INFO [django.server:213] "POST /users/login/ HTTP/1.1" 200 4025
+[2024-11-21 22:09:33] INFO [users:12] User Anonymous accessed /users/login/
+[2024-11-21 22:09:35] INFO [users.views:48] User root logged in.
+[2024-11-21 22:09:35] INFO [django.server:213] "POST /users/login/ HTTP/1.1" 302 0
+[2024-11-21 22:09:35] INFO [users:12] User root accessed /
+[2024-11-21 22:09:35] INFO [django.server:213] "GET / HTTP/1.1" 200 3269
+[2024-11-21 22:10:06] INFO [users:12] User root accessed /
+[2024-11-21 22:10:06] INFO [django.server:213] "GET / HTTP/1.1" 200 3269
+[2024-11-21 22:12:27] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\ayu_site\settings.py changed, reloading.
+[2024-11-21 22:12:29] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 22:15:07] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\ayu_site\settings.py changed, reloading.
+[2024-11-21 22:15:08] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 22:16:43] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\ayu_site\settings.py changed, reloading.
+[2024-11-21 22:16:44] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 22:18:45] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\ayu_site\settings.py changed, reloading.
+[2024-11-21 22:18:46] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 22:20:45] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\users\custom_session_backend.py changed, reloading.
+[2024-11-21 22:20:46] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 22:21:09] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\ayu_site\settings.py changed, reloading.
+[2024-11-21 22:21:11] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 22:21:25] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 22:24:00] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\users\custom_session_backend.py changed, reloading.
+[2024-11-21 22:24:02] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 22:24:08] INFO [users:12] User Anonymous accessed /
+[2024-11-21 22:24:08] INFO [django.server:213] "GET / HTTP/1.1" 200 2345
+[2024-11-21 22:24:12] INFO [users:12] User Anonymous accessed /users/register/
+[2024-11-21 22:24:12] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5540
+[2024-11-21 22:24:23] INFO [users:12] User Anonymous accessed /users/register/
+[2024-11-21 22:24:23] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5540
+[2024-11-21 22:25:11] INFO [users:12] User Anonymous accessed /users/login/
+[2024-11-21 22:25:11] INFO [django.server:213] "GET /users/login/ HTTP/1.1" 200 3703
+[2024-11-21 22:25:18] INFO [users:12] User Anonymous accessed /users/register/
+[2024-11-21 22:25:18] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5540
+[2024-11-21 23:01:01] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:01:05] INFO [users:12] User Anonymous accessed /users/register/
+[2024-11-21 23:01:05] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5540
+[2024-11-21 23:08:24] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\ayu_site\settings.py changed, reloading.
+[2024-11-21 23:08:26] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:15:11] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:15:45] INFO [users:12] User Anonymous accessed /users/register/
+[2024-11-21 23:15:45] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 4208
+[2024-11-21 23:15:47] INFO [users:12] User Anonymous accessed /users/register/
+[2024-11-21 23:15:47] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 4208
+[2024-11-21 23:15:57] INFO [users:12] User Anonymous accessed /
+[2024-11-21 23:15:57] INFO [django.server:213] "GET / HTTP/1.1" 200 2345
+[2024-11-21 23:15:58] INFO [users:12] User Anonymous accessed /admin/
+[2024-11-21 23:15:58] INFO [django.server:213] "GET /admin/ HTTP/1.1" 302 0
+[2024-11-21 23:15:58] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:15:58] INFO [django.server:213] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+[2024-11-21 23:15:58] INFO [django.server:213] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2024-11-21 23:15:58] INFO [django.server:213] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[2024-11-21 23:15:58] INFO [django.server:213] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[2024-11-21 23:15:58] INFO [django.server:213] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2024-11-21 23:15:58] INFO [django.server:213] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2024-11-21 23:15:58] INFO [django.server:213] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2024-11-21 23:15:58] INFO [django.server:213] "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[2024-11-21 23:16:11] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:16:12] INFO [django.server:213] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2024-11-21 23:16:12] INFO [users:12] User Anonymous accessed /admin/
+[2024-11-21 23:16:12] INFO [django.server:213] "GET /admin/ HTTP/1.1" 302 0
+[2024-11-21 23:16:12] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:16:12] INFO [django.server:213] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+[2024-11-21 23:17:56] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:17:57] INFO [django.server:213] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2024-11-21 23:17:57] INFO [users:12] User Anonymous accessed /admin/
+[2024-11-21 23:17:57] INFO [django.server:213] "GET /admin/ HTTP/1.1" 302 0
+[2024-11-21 23:17:57] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:17:57] INFO [django.server:213] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+[2024-11-21 23:19:02] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:19:03] INFO [django.server:213] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2024-11-21 23:19:03] INFO [users:12] User Anonymous accessed /admin/
+[2024-11-21 23:19:03] INFO [django.server:213] "GET /admin/ HTTP/1.1" 302 0
+[2024-11-21 23:19:03] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:19:03] INFO [django.server:213] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+[2024-11-21 23:19:31] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:19:33] INFO [django.server:213] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2024-11-21 23:19:33] INFO [users:12] User Anonymous accessed /admin/
+[2024-11-21 23:19:33] INFO [django.server:213] "GET /admin/ HTTP/1.1" 302 0
+[2024-11-21 23:19:33] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:19:33] INFO [django.server:213] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+[2024-11-21 23:21:37] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\users\models.py changed, reloading.
+[2024-11-21 23:21:39] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:22:19] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:22:47] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:22:48] INFO [django.server:213] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2024-11-21 23:22:48] INFO [users:12] User Anonymous accessed /admin/
+[2024-11-21 23:22:49] INFO [django.server:213] "GET /admin/ HTTP/1.1" 302 0
+[2024-11-21 23:22:49] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:22:49] INFO [django.server:213] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+[2024-11-21 23:23:16] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:23:17] INFO [django.server:213] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2024-11-21 23:23:17] INFO [users:12] User Anonymous accessed /admin/
+[2024-11-21 23:23:17] INFO [django.server:213] "GET /admin/ HTTP/1.1" 302 0
+[2024-11-21 23:23:17] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:23:17] INFO [django.server:213] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+[2024-11-21 23:29:18] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:29:29] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:29:51] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:31:26] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:31:26] INFO [users:12] User Anonymous accessed /users/register/
+[2024-11-21 23:31:26] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 4208
+[2024-11-21 23:31:36] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:31:36] INFO [django.server:213] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+[2024-11-21 23:31:37] INFO [django.server:213] "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+[2024-11-21 23:31:37] INFO [django.server:213] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+[2024-11-21 23:31:37] INFO [django.server:213] "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[2024-11-21 23:31:37] INFO [django.server:213] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[2024-11-21 23:31:37] INFO [django.server:213] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+[2024-11-21 23:31:37] INFO [django.server:213] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[2024-11-21 23:31:37] INFO [django.server:213] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[2024-11-21 23:31:37] INFO [users:12] User Anonymous accessed /favicon.ico
+[2024-11-21 23:31:37] WARNING [django.request:248] Not Found: /favicon.ico
+[2024-11-21 23:31:37] WARNING [django.server:213] "GET /favicon.ico HTTP/1.1" 404 2291
+[2024-11-21 23:32:08] INFO [users:12] User Anonymous accessed /admin/login/
+[2024-11-21 23:32:10] INFO [django.server:213] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2024-11-21 23:32:10] INFO [users:12] User admin accessed /admin/
+[2024-11-21 23:32:10] INFO [django.server:213] "GET /admin/ HTTP/1.1" 200 7008
+[2024-11-21 23:32:10] INFO [django.server:213] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2024-11-21 23:32:10] INFO [django.server:213] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2024-11-21 23:32:10] INFO [django.server:213] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2024-11-21 23:32:16] INFO [users:12] User admin accessed /admin/django_db_logger/statuslog/
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /admin/django_db_logger/statuslog/ HTTP/1.1" 200 16006
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2024-11-21 23:32:16] INFO [users:12] User admin accessed /admin/jsi18n/
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[2024-11-21 23:32:16] INFO [django.server:213] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2024-11-21 23:32:17] INFO [django.server:213] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2024-11-21 23:32:17] INFO [django.server:213] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[2024-11-21 23:32:27] INFO [users:12] User admin accessed /admin/django_db_logger/statuslog/
+[2024-11-21 23:32:27] INFO [django.server:213] "GET /admin/django_db_logger/statuslog/?p=3 HTTP/1.1" 200 16275
+[2024-11-21 23:32:28] INFO [users:12] User admin accessed /admin/jsi18n/
+[2024-11-21 23:32:28] INFO [django.server:213] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2024-11-21 23:32:29] INFO [users:12] User admin accessed /admin/django_db_logger/statuslog/
+[2024-11-21 23:32:29] INFO [django.server:213] "GET /admin/django_db_logger/statuslog/?p=4 HTTP/1.1" 200 16524
+[2024-11-21 23:32:29] INFO [users:12] User admin accessed /admin/jsi18n/
+[2024-11-21 23:32:29] INFO [django.server:213] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2024-11-21 23:32:30] INFO [users:12] User admin accessed /admin/django_db_logger/statuslog/
+[2024-11-21 23:32:30] INFO [django.server:213] "GET /admin/django_db_logger/statuslog/?p=5 HTTP/1.1" 200 14713
+[2024-11-21 23:32:31] INFO [users:12] User admin accessed /admin/jsi18n/
+[2024-11-21 23:32:31] INFO [django.server:213] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2024-11-21 23:34:25] INFO [users:12] User admin accessed /admin/users/user/
+[2024-11-21 23:34:25] INFO [django.server:213] "GET /admin/users/user/ HTTP/1.1" 200 11538
+[2024-11-21 23:34:25] INFO [users:12] User admin accessed /admin/jsi18n/
+[2024-11-21 23:34:25] INFO [django.server:213] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2024-11-21 23:34:25] INFO [django.server:213] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[2024-11-21 23:34:25] INFO [django.server:213] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2024-11-21 23:34:25] INFO [django.server:213] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[2024-11-21 23:34:55] INFO [users:12] User admin accessed /admin/auth/group/
+[2024-11-21 23:34:55] INFO [django.server:213] "GET /admin/auth/group/ HTTP/1.1" 200 8443
+[2024-11-21 23:34:55] INFO [users:12] User admin accessed /admin/jsi18n/
+[2024-11-21 23:34:55] INFO [django.server:213] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2024-11-21 23:34:58] INFO [users:12] User admin accessed /admin/django_db_logger/statuslog/
+[2024-11-21 23:34:58] INFO [django.server:213] "GET /admin/django_db_logger/statuslog/ HTTP/1.1" 200 16138
+[2024-11-21 23:34:58] INFO [users:12] User admin accessed /admin/jsi18n/
+[2024-11-21 23:34:58] INFO [django.server:213] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2024-11-21 23:34:59] INFO [users:12] User admin accessed /admin/auth/
+[2024-11-21 23:34:59] INFO [django.server:213] "GET /admin/auth/ HTTP/1.1" 200 5311
+[2024-11-21 23:35:03] INFO [users:12] User admin accessed /admin/auth/group/add/
+[2024-11-21 23:35:03] INFO [django.server:213] "GET /admin/auth/group/add/ HTTP/1.1" 200 12293
+[2024-11-21 23:35:03] INFO [django.server:213] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2024-11-21 23:35:03] INFO [django.server:213] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+[2024-11-21 23:35:03] INFO [django.server:213] "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+[2024-11-21 23:35:03] INFO [django.server:213] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2024-11-21 23:35:03] INFO [users:12] User admin accessed /admin/jsi18n/
+[2024-11-21 23:35:03] INFO [django.server:213] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2024-11-21 23:35:03] INFO [django.server:213] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2024-11-21 23:35:03] INFO [django.server:213] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2024-11-21 23:35:03] INFO [django.server:213] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+[2024-11-21 23:35:03] INFO [django.server:213] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+[2024-11-21 23:35:03] INFO [django.server:213] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+[2024-11-21 23:35:11] INFO [users:12] User admin accessed /admin/users/user/
+[2024-11-21 23:35:11] INFO [django.server:213] "GET /admin/users/user/ HTTP/1.1" 200 11538
+[2024-11-21 23:35:11] INFO [users:12] User admin accessed /admin/jsi18n/
+[2024-11-21 23:35:11] INFO [django.server:213] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2024-11-21 23:36:40] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:36:40] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 4966
+[2024-11-21 23:36:41] INFO [django.server:213] "GET /static/images/favicon.png HTTP/1.1" 200 470
+[2024-11-21 23:36:45] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:36:45] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 4966
+[2024-11-21 23:36:50] INFO [users:12] User admin accessed /users/login/
+[2024-11-21 23:36:50] INFO [django.server:213] "GET /users/login/ HTTP/1.1" 200 4461
+[2024-11-21 23:36:55] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:36:55] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 4966
+[2024-11-21 23:44:59] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\ayu_site\settings.py changed, reloading.
+[2024-11-21 23:45:00] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:46:33] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\ayu_site\settings.py changed, reloading.
+[2024-11-21 23:46:35] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:50:28] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\users\views.py changed, reloading.
+[2024-11-21 23:50:29] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:52:18] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\users\forms.py changed, reloading.
+[2024-11-21 23:52:20] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:52:20] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:21] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:23] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:23] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:25] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:25] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:26] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:26] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:27] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:27] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:29] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:29] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:30] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:30] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:30] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:30] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:31] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:31] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:32] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:32] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:32] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:32] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:33] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:33] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:34] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:34] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:34] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:34] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:35] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:35] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:36] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:36] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:37] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:52:37] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:52:45] INFO [users:12] User admin accessed /
+[2024-11-21 23:52:45] INFO [django.server:213] "GET / HTTP/1.1" 200 3270
+[2024-11-21 23:52:47] INFO [users:12] User admin accessed /
+[2024-11-21 23:52:47] INFO [django.server:213] "GET / HTTP/1.1" 200 3270
+[2024-11-21 23:53:11] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:53:11] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:53:13] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:53:13] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:53:17] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:53:17] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:53:18] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\users\forms.py changed, reloading.
+[2024-11-21 23:53:20] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:53:20] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:53:20] INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55585)
+[2024-11-21 23:53:21] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:53:21] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:53:22] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:53:22] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:53:24] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:53:24] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:53:25] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:53:25] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:53:53] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:53:53] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:53:54] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\users\views.py changed, reloading.
+[2024-11-21 23:53:56] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:53:56] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:53:56] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:54:00] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:54:03] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:54:03] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:54:05] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:54:05] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:54:07] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:54:07] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:54:17] INFO [users:12] User admin accessed /users/register/
+[2024-11-21 23:54:17] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 5092
+[2024-11-21 23:54:25] INFO [users:12] User admin accessed /
+[2024-11-21 23:54:26] INFO [django.server:213] "GET / HTTP/1.1" 200 3270
+[2024-11-21 23:54:30] INFO [users:12] User admin accessed /
+[2024-11-21 23:54:30] INFO [django.server:213] "GET / HTTP/1.1" 200 3270
+[2024-11-21 23:54:32] INFO [users:12] User admin accessed /users/profile/
+[2024-11-21 23:54:32] INFO [users.views:115] User admin accessed their profile.
+[2024-11-21 23:54:32] INFO [django.server:213] "GET /users/profile/ HTTP/1.1" 200 2953
+[2024-11-21 23:54:33] INFO [users:12] User admin accessed /users/auth/logout/
+[2024-11-21 23:54:33] INFO [django.server:213] "POST /users/auth/logout/ HTTP/1.1" 302 0
+[2024-11-21 23:54:33] INFO [users:12] User Anonymous accessed /
+[2024-11-21 23:54:33] INFO [django.server:213] "GET / HTTP/1.1" 200 2345
+[2024-11-21 23:54:57] INFO [users:12] User Anonymous accessed /users/profile/
+[2024-11-21 23:54:57] INFO [users.views:115] User  accessed their profile.
+[2024-11-21 23:54:57] INFO [django.server:213] "GET /users/profile/ HTTP/1.1" 200 2169
+[2024-11-21 23:54:58] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\users\views.py changed, reloading.
+[2024-11-21 23:55:00] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:55:23] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\users\views.py changed, reloading.
+[2024-11-21 23:55:25] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:55:25] INFO [users:12] User Anonymous accessed /users/profile/
+[2024-11-21 23:55:25] INFO [users.views:115] User  accessed their profile.
+[2024-11-21 23:55:25] INFO [django.server:213] "GET /users/profile/ HTTP/1.1" 200 2169
+[2024-11-21 23:55:30] INFO [users:12] User Anonymous accessed /users/profile/
+[2024-11-21 23:55:30] INFO [users.views:115] User  accessed their profile.
+[2024-11-21 23:55:30] INFO [django.server:213] "GET /users/profile/ HTTP/1.1" 200 2169
+[2024-11-21 23:55:38] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:55:40] INFO [users:12] User Anonymous accessed /users/profile/
+[2024-11-21 23:55:40] INFO [users.views:115] User  accessed their profile.
+[2024-11-21 23:55:40] INFO [django.server:213] "GET /users/profile/ HTTP/1.1" 200 2169
+[2024-11-21 23:55:43] INFO [users:12] User Anonymous accessed /
+[2024-11-21 23:55:43] INFO [django.server:213] "GET / HTTP/1.1" 200 2345
+[2024-11-21 23:56:37] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:56:40] INFO [users:12] User Anonymous accessed /
+[2024-11-21 23:56:40] INFO [django.server:213] "GET / HTTP/1.1" 200 2345
+[2024-11-21 23:57:14] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\ayu_site\settings.py changed, reloading.
+[2024-11-21 23:57:15] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:57:16] INFO [users:12] User Anonymous accessed /
+[2024-11-21 23:57:16] INFO [django.server:213] "GET / HTTP/1.1" 200 2345
+[2024-11-21 23:58:21] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\users\forms.py changed, reloading.
+[2024-11-21 23:58:23] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:58:38] INFO [django.utils.autoreload:266] C:\Base_data\_system_files\Practice\app\ayu_site\users\views.py changed, reloading.
+[2024-11-21 23:58:40] INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-11-21 23:58:40] INFO [users:12] User Anonymous accessed /users/profile/
+[2024-11-21 23:58:40] INFO [users.views:128] User  accessed their profile.
+[2024-11-21 23:58:40] INFO [django.server:213] "GET /users/profile/ HTTP/1.1" 200 2169
+[2024-11-21 23:58:47] INFO [users:12] User Anonymous accessed /users/login/
+[2024-11-21 23:58:47] INFO [django.server:213] "GET /users/login/ HTTP/1.1" 200 3829
+[2024-11-21 23:58:49] INFO [users:12] User Anonymous accessed /users/register/
+[2024-11-21 23:58:49] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 4334
+[2024-11-21 23:58:51] INFO [users:12] User Anonymous accessed /users/login/
+[2024-11-21 23:58:51] INFO [django.server:213] "GET /users/login/ HTTP/1.1" 200 3829
+[2024-11-21 23:58:52] INFO [users:12] User Anonymous accessed /
+[2024-11-21 23:58:52] INFO [django.server:213] "GET / HTTP/1.1" 200 2345
+[2024-11-21 23:58:59] INFO [users:12] User Anonymous accessed /users/register/
+[2024-11-21 23:58:59] INFO [django.server:213] "GET /users/register/ HTTP/1.1" 200 4334
+[2024-11-21 23:59:02] INFO [users:12] User Anonymous accessed /users/login/
+[2024-11-21 23:59:02] INFO [django.server:213] "GET /users/login/ HTTP/1.1" 200 3829
+[2024-11-21 23:59:15] INFO [users:12] User Anonymous accessed /users/login/
+[2024-11-21 23:59:16] INFO [users.views:52] User admin logged in.
+[2024-11-21 23:59:16] INFO [django.server:213] "POST /users/login/ HTTP/1.1" 302 0
+[2024-11-21 23:59:16] INFO [users:12] User admin accessed /
+[2024-11-21 23:59:16] INFO [django.server:213] "GET / HTTP/1.1" 200 3270
+[2024-11-21 23:59:21] INFO [users:12] User admin accessed /users/profile/
+[2024-11-21 23:59:21] INFO [users.views:128] User admin accessed their profile.
+[2024-11-21 23:59:21] INFO [django.server:213] "GET /users/profile/ HTTP/1.1" 200 2953
+[2024-11-21 23:59:24] INFO [users:12] User admin accessed /users/auth/logout/
+[2024-11-21 23:59:24] INFO [django.server:213] "POST /users/auth/logout/ HTTP/1.1" 302 0
+[2024-11-21 23:59:24] INFO [users:12] User Anonymous accessed /
+[2024-11-21 23:59:24] INFO [django.server:213] "GET / HTTP/1.1" 200 2345
