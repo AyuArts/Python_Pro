@@ -2,13 +2,15 @@ from pathlib import Path
 import os
 import logging.config
 
+from decouple import config
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-%=t53z0#3afb#5@1l3ttuzns9^5#ri)js9*t@_ujp#c*&bg28u'
+SECRET_KEY = config('DJANGO_SECRET_KEY')
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 AUTH_USER_MODEL = 'users.User'
 LOGIN_REDIRECT_URL = '/'
@@ -45,6 +47,10 @@ SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
 
 X_FRAME_OPTIONS = 'DENY'
 ROOT_URLCONF = 'ayu_site.urls'
+
+SECURE_HSTS_SECONDS = 31536000
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+SECURE_HSTS_PRELOAD = True
 
 TEMPLATES = [
     {
