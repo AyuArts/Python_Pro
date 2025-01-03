@@ -7,7 +7,7 @@ from app.database import seed_database
 main = Blueprint('main', __name__)
 
 
-# Routes
+
 @main.route('/')
 def index():
     return {"message": "Welcome to the Film Library API"}
