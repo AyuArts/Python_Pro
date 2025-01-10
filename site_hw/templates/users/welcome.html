@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Привітання{% endblock %}
+
+{% block content %}
+<section>
+    <h2>Привітання</h2>
+    <p>Привіт, {{ username }}, вам {{ age }} років!</p>
+    <a href="{% url 'logout' %}">Вийти</a>
+</section>
+{% endblock %}

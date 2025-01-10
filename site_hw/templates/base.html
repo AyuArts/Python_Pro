@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Система управління книгами{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Система управління книгами</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'books_opt' %}">Список книг</a></li>
+                {% if user.is_authenticated %}
+                    <li><a href="{% url 'logout' %}">Вийти</a></li>
+                    <li><strong>Ви авторизовані як {{ user.username }}</strong></li>
+                {% else %}
+                    <li><a href="{% url 'login' %}">Увійти</a></li>
+                    <li><a href="{% url 'register' %}">Реєстрація</a></li>
+                    <li><strong>Ви не авторизовані</strong></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- Контент -->
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Система управління книгами</p>
+    </footer>
+</body>
+</html>

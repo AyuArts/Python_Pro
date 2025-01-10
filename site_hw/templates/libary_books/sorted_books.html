@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Сортування книг за кількістю відгуків та рейтингом{% endblock %}
+
+{% block content %}
+<h2>Сортування книг за кількістю відгуків та середнім рейтингом</h2>
+
+{% if books %}
+    <table>
+        <thead>
+            <tr>
+                <th>Назва книги</th>
+                <th>Автор</th>
+                <th>Кількість відгуків</th>
+                <th>Середній рейтинг</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for book in books %}
+            <tr>
+                <td>{{ book.title }}</td>
+                <td>{{ book.author.name }}</td>
+                <td>{{ book.review_count }}</td>
+                <td>{{ book.average_rating|floatformat:2|default:"Н/Д" }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>Немає книг для відображення.</p>
+{% endif %}
+{% endblock %}

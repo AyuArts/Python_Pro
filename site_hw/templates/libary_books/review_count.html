@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Кількість відгуків{% endblock %}
+
+{% block content %}
+<h2>Кількість відгуків для кожної книги</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Назва книги</th>
+            <th>Кількість відгуків</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for book in books %}
+            <tr>
+                <td>{{ book.title }}</td>
+                <td>{{ book.review_count }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

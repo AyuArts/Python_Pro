@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}Реєстрація{% endblock %}
+
+{% block content %}
+<section>
+    <h2>Реєстрація</h2>
+    <form method="post">
+        {% csrf_token %}
+
+        <!-- Цикл по всем полям формы -->
+        {% for field in form %}
+            <div style="margin-bottom: 10px;">
+                <label>{{ field.label_tag }}</label><br>
+                {{ field }}
+
+                <!-- Вывод ошибок для конкретного поля -->
+                {% for error in field.errors %}
+                    <small style="color: red;">{{ error }}</small><br>
+                {% endfor %}
+            </div>
+        {% endfor %}
+
+        <!-- Вывод ошибок, не привязанных к конкретному полю (например, несовпадение паролей) -->
+        {% if form.non_field_errors %}
+            {% for error in form.non_field_errors %}
+                <p style="color: red;">{{ error }}</p>
+            {% endfor %}
+        {% endif %}
+
+        <button type="submit">Зареєструватися</button>
+        <a href="{% url 'login' %}">Увійти</a>
+    </form>
+</section>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Середній рейтинг книг авторів{% endblock %}
+
+{% block content %}
+<h2>Середній рейтинг книг кожного автора</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Ім'я автора</th>
+            <th>Середній рейтинг</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for author in authors %}
+            <tr>
+                <td>{{ author.name }}</td>
+                <td>{{ author.average_rating|floatformat:2 }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
